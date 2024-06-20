@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "597a4431-9515-4bcc-bb0a-063e9c8caa81",
+		"name": "inBest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24950194"
+	},
+	"item": [
+		{
+			"name": "Upload Image (Normal)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/jhonn250/Documents/medmatter-main-mm-ai-text-detector/mm-ai-text-detector/img/uploads/test_image.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/image/single",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"image",
+						"single"
+					]
+				},
+				"description": "Uploads an image as is"
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Image (Black & White)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/image/black&white",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"image",
+						"black&white"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Image (Invert)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/jhonn250/Desktop/ESCRITORIO/MEZA/43c974ab-7e35-489f-a396-3dc91cc24eb3.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/image/invert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"image",
+						"invert"
+					]
+				},
+				"description": "Inverts the color of an image"
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Image (Resize)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/jhonn250/Documents/Ventura/ine yaz.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/image/resize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"image",
+						"resize"
+					]
+				},
+				"description": "Resizes an image, use the first parameter to change width and second parameter to change height"
+			},
+			"response": []
+		},
+		{
+			"name": "Get List of Files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/images/countAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"images",
+						"countAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gets All Images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/images/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"images",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
