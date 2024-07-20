@@ -3,6 +3,12 @@
 Aplicación backend Node.js con interfaz frontend realizada con React que procesa imágenes con Sharp para modificarlas sea en su tamaño, color, dibujado encima de la imagen.
 Almacena la imagen y los resultados del análisis en un sistema de almacenamiento local.
 
+<p float="left">
+  <img src="/ss/1.png" width="250" height='500' />
+  <img src="/ss/2.png" width="250" height='500' />
+  <img src="/ss/3.png" width="250" height='500' />
+</p>
+
 
 
 Instrucciones para correr el programa:
