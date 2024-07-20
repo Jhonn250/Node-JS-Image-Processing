@@ -4,9 +4,12 @@ Aplicación backend Node.js con interfaz frontend realizada con React que proces
 Almacena la imagen y los resultados del análisis en un sistema de almacenamiento local.
 
 <p float="left">
-  <img src="/ss/1.png" width="250" height='500' />
-  <img src="/ss/2.png" width="250" height='500' />
-  <img src="/ss/3.png" width="250" height='500' />
+  <img src="/ss/1.png" width="500" height='500' />
+  <img src="/ss/2.png" width="500" height='500' />
+</p>
+
+<p>
+   <img src="/ss/3.png" width="500" height='500' />
 </p>
 
 
