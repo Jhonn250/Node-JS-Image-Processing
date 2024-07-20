@@ -1,11 +1,12 @@
-# Technical-Test-for-InBest
-Technical Test for InBest
+# Node-JS-Image-Processing
 
-DOCUMENTACIÓN PRUEBA TÉCNICA INBEST
+Aplicación backend Node.js con interfaz frontend realizada con React que procesa imágenes con Sharp para modificarlas sea en su tamaño, color, dibujado encima de la imagen.
+Almacena la imagen y los resultados del análisis en un sistema de almacenamiento local.
+
+
 
 Instrucciones para correr el programa:
-1. Descargar todos los archivos desde: https://github.com/Jhonn250/Technical-Test-for-
-InBest
+1. Clonar el proyecto
 
 Levantar Servidor
 1. Arrastrar carpeta backend a VSCode.
@@ -73,6 +74,4 @@ Como subir una imagen desde Frontend
 ordenador, y se va a mostrar un preview de la imagen.
 • En Select an Option tendremos las mismas opciones que teniamos en Postman,
 seleccionamos la deseada.
-• Presionamos el botón Upload Photo y se va a mandar al backend y si sale bien se
-creará un nuevo archivo en la carpeta de uploads.
-Nota: Para manipular el tamaño en la opcion de Change Size se debe cambiar desde el archivo imagesAPI.js debido a falta de tiempo.
+• Presionamos el botón Upload Photo y se va a mandar al backend y se creará un nuevo archivo en la carpeta de uploads, ademas de mostrar la imagen a frontend.
